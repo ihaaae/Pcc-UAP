@@ -1,11 +1,5 @@
 # Universal Adversarial Perturbations Generative Network for Speaker Recognition
 
-<table width="100%" cellpadding="0" cellspacing="0" border='0'>
- <tr><td align="center">
-<img src="./fig/UAP_net.jpg" width="75%" align="canter">
-  </td></tr>
-</table>
-
 
 # Prerequisites
  - linux
@@ -47,6 +41,4 @@ The training for TIMIT dataset will cost about 2 day on a 1080ti GPU.
 # Acknowledgement
 Thanks to the valuable discussion with Jing Lin. Besides, thanks to the open source of [SincNet](https://github.com/mravanelli/SincNet), [Pytorch-Kaldi](https://github.com/mravanelli/pytorch-kaldi), [PESQ](https://github.com/vBaiCai/python-pesq).
 
-
-Please feel free to contact me (jiguo.li@vipl.ict.ac.cn, jgli@pku.edu.cn) if you have any questions about this project. **Note that this work is only for research. Please do not use it for illegal purposes.**
 
