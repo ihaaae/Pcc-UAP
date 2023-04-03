@@ -1,0 +1,4 @@
+python train_generator.py --pt_file output/target100_epoch50_pcc/latest.pth --no_dist --data_root ../TIMIT_DATA_ROOT --dataset timit --target 100 --test --test_output output/test_target100
+python train_generator.py --pt_file output/target200_epoch50_pcc/latest.pth --no_dist --data_root ../TIMIT_DATA_ROOT --dataset timit --target 200 --test --test_output output/test_target200
+python train_generator.py --pt_file output/target300_epoch50_pcc_norm2000/latest.pth --no_dist --data_root ../TIMIT_DATA_ROOT --dataset timit --target 300 --test --test_output output/test_target300
+python train_generator.py --pt_file output/target400_epoch50_pcc/latest.pth --no_dist --data_root ../TIMIT_DATA_ROOT --dataset timit --target 400 --test --test_output output/test_target400

@@ -1,0 +1,2 @@
+python train_generator.py --output_dir output/target300_epoch50_pcc_norm0 --no_dist --norm_factor 1000 --margin 0 --data_root ../TIMIT_DATA_ROOT --dataset timit --mul 0.1 --epoch 50 --target 300
+python train_generator.py --output_dir output/target400_epoch50_pcc_norm0 --no_dist --norm_factor 0 --margin 0 --data_root ../TIMIT_DATA_ROOT --dataset timit --mul 0.1 --epoch 50 --target 400
